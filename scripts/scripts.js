@@ -1,6 +1,6 @@
 let anime = document.getElementById('anime');
 let char = document.getElementById('character');
-let qoutes = document.getElementById('quotes');
+let quotes = document.getElementById('quotes');
 
 
 async function getQuote(){
@@ -10,7 +10,7 @@ async function getQuote(){
         console.log(data)
         anime.innerHTML = data.anime;
         char.innerHTML = data.character;
-        qoutes.innerHTML = data.quote;
+        quotes.innerHTML = data.quote;
     })
 }
 getQuote()
