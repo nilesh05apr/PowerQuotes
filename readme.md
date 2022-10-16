@@ -1,17 +1,24 @@
-#PowerQuotes  
+# PowerQuotes  
 
-Simple chrome extension to motivate you with powerful qoutes from famous Animes.  
+Chrome extension to motivate you with powerful qoutes from famous Animes.  
 
+## Acknowledgement  
 
-Used opensource animechan api to get qoutes https://animechan.vercel.app/  
+[animechan api](https://animechan.vercel.app/)  
 
+## To Run locally
 
-To run it locally:  
-- clone the repo  
-- go to chrome extensions  
-- enable developer mode  
-- click on load unpacked and locate manifest.json 
-- click on the extension icon to see quotes 
+Clone the repository
+```bash
+- git clone https://github.com/nilesh05apr/PowerQuotes.git  
+```
+
+```bash
+Open google chrome and go to extensions   
+Enable developer mode  
+Click on load unpacked and locate manifest.json   
+Click on the extension icon to see quotes   
+``` 
 
 Stay Motivated  
 Happy Coding :)  
